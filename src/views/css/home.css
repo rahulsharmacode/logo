@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-wrapper {
+  height: 100vh;
+  background-color: #3c3636;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-wrapper .card-body {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-wrapper .card-body .para-box {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  text-align: center;
+  color: white;
+}
+
+.card-wrapper .card-body .para-box h2 span {
+  color: #dd7e55;
+  margin: 0px 8px;
+}
+
+.card-wrapper .line {
+  height: 20px;
+  width: 200px;
+  background-color: rebeccapurple;
+}
+
+.card-wrapper .line-1 {
+  background-color: #d67e4f;
+  rotate: 45deg;
+  position: absolute;
+  top: 76px;
+  left: 40%;
+}
+
+.card-wrapper .line-2 {
+  background-color: #c2bca7;
+  rotate: 135deg;
+  position: absolute;
+  bottom: 76px;
+  left: 40%;
+}
+
+.card-wrapper .line-3 {
+  background-color: #59a9f8;
+  rotate: 405deg;
+  position: absolute;
+  bottom: 76px;
+  left: -2%;
+}
+
+.card-wrapper .line-4 {
+  background-color: #a5d6a8;
+  rotate: 135deg;
+  position: absolute;
+  top: 76px;
+  left: -2%;
+}
+/*# sourceMappingURL=home.css.map */

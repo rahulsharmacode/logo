@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-wrapper{
+    height: 100vh;
+    background-color:#3c3636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card-body{
+        height: 300px;
+        width: 300px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .para-box{
+            position: absolute;
+            top: 45%;
+            left: 30%;
+            text-align: center;
+            color: white;
+            h2{
+                span{
+                        color: #dd7e55;
+                    margin: 0px 8px ;
+                    }
+                    small{
+                    }
+            }
+        }
+    }
+
+    .line{
+        height: 20px;
+        width: 200px;
+        background-color: rebeccapurple;
+    }
+    .line-1{
+        background-color: #d67e4f;
+    rotate: 45deg;
+    position: absolute;
+    top: 76px;
+    left: 40%;
+    }
+    .line-2{
+        background-color: #c2bca7;
+        rotate: 45*3deg;
+        position: absolute;
+        bottom: 76px;
+        left: 40%;
+    }
+    .line-3{
+        background-color: #59a9f8;
+        rotate: 45*9deg;
+        position: absolute;
+        bottom: 76px;
+        left: -2%;
+    }
+    .line-4{background-color: #a5d6a8;
+        rotate: 45*3deg;
+        position: absolute;
+        top: 76px;
+        left: -2%;
+    }
+
+}
